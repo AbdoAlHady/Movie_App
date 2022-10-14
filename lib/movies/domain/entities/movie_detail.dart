@@ -10,7 +10,7 @@ class MovieDetail extends Equatable {
   final String releaseDate;
   final int runTime;
   final List<Genres> genres;
-  final String voteAverage;
+  final double voteAverage;
 
   const MovieDetail({
     required this.backdropPath,

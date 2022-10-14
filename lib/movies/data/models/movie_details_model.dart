@@ -21,5 +21,5 @@ class MovieDetailsModel extends MovieDetail {
           runTime: json['runtime'],
           genres: List<GenresModel>.from(
               json['genres'].map((x) => GenresModel.fromJson(x))),
-          voteAverage: json['vote_average']);
+          voteAverage: json['vote_average'].toDouble());
 }
